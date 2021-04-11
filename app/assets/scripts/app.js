@@ -1,6 +1,6 @@
 import "../styles/styles.css"
-//alert("Wlelcome to the site!")
+import MobileMenu from "./modules/MobileMenu"
 
-if (module.hot) {
-    module.hot.accept()
-}
+let mobileMenu = new MobileMenu();
+
+//alert("Wlelcome to the site!");
